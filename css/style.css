@@ -952,3 +952,20 @@ section { padding: 100px 0; scroll-margin-top: 90px; }
         padding-top: 80px;
     }
 }
+
+/* =====================================================
+   ELEMENTOS CLICKEABLES DE PROPIEDADES
+===================================================== */
+
+.property-click,
+.property-open {
+    cursor: pointer;
+}
+
+h3.property-open {
+    transition: color .25s ease;
+}
+
+h3.property-open:hover {
+    color: var(--gold);
+}
